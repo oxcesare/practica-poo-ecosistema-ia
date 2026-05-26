@@ -7,11 +7,13 @@ public class ModeloIA {
     private double precision;
     private int epocasEntradas;
     private double tasaAprendizaje;
+    private int numeroCapasOcultas;
 
     //Constructor que inicialice nombre y tasa
-    public ModeloIA(String nombre, double tasaAprendizaje) {
+    public ModeloIA(String nombre, double tasaAprendizaje, int numeroCapasOcultas) {
         this.nombre = nombre;
         this.tasaAprendizaje = tasaAprendizaje;
+        this.numeroCapasOcultas = numeroCapasOcultas;
     }
 
     public double getPrecision() {
@@ -35,6 +37,7 @@ public class ModeloIA {
         System.out.println("Modelo: " + nombre);
         System.out.println("Tasa de Aprendizaje: " + tasaAprendizaje);
         System.out.println("Épocas Entrenadas: " + epocasEntradas);
+        System.out.println("Capas de Ocultas: " + numeroCapasOcultas);
 
     }
 

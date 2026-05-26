@@ -43,3 +43,8 @@ public class ModeloIA {
 ```
 
 Con este cambio, el acceso y la modificación de datos se controlan mediante métodos, mejorando la seguridad y mantenibilidad del modelo.
+
+
+#Implementación del concepto de Herencia en la fase 3
+#Se agregan las clases Arbol de Decision y Red Neuronal, que heredan de la clase ModeloIA, 
+#permitiendo reutilizar código y mejorar la organización del proyecto.
