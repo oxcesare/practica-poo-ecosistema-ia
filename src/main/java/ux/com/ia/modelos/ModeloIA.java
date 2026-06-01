@@ -10,10 +10,9 @@ public class ModeloIA {
     private int numeroCapasOcultas;
 
     //Constructor que inicialice nombre y tasa
-    public ModeloIA(String nombre, double tasaAprendizaje, int numeroCapasOcultas) {
+    public ModeloIA(String nombre, double tasaAprendizaje) {
         this.nombre = nombre;
         this.tasaAprendizaje = tasaAprendizaje;
-        this.numeroCapasOcultas = numeroCapasOcultas;
     }
 
     public double getPrecision() {

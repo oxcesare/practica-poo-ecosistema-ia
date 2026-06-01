@@ -48,3 +48,6 @@ Con este cambio, el acceso y la modificación de datos se controlan mediante mé
 #Implementación del concepto de Herencia en la fase 3
 #Se agregan las clases Arbol de Decision y Red Neuronal, que heredan de la clase ModeloIA, 
 #permitiendo reutilizar código y mejorar la organización del proyecto.
+
+#Se actualiza documento base incorporando la Fase 4, se incorporan temas de polimorfismo
+#Uso de interfaces
